@@ -20,7 +20,6 @@
     "nodemon": "^2.0.21",
     "validator": "^13.9.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dageshwar07/mern-portfolio-backend.git"
