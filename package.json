@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,5 +19,15 @@
     "nodemailer": "^6.9.1",
     "nodemon": "^2.0.21",
     "validator": "^13.9.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dageshwar07/mern-portfolio-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dageshwar07/mern-portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/Dageshwar07/mern-portfolio-backend#readme",
+  "description": ""
 }
