@@ -31,7 +31,7 @@ router.post("/register", async (req, res) => {
                 from: process.env.EMAIL,
                 to: email,
                 subject: "sending email by bhaijan",
-                html: '<p>For clients that do not support AMP4EMAIL or amp content is not valid</p>',
+                html:'<h1>Welcome</h1><p>That was easy!</p>',
                 amp: `<!doctype html>
                 <html ⚡4email>
                   <head>

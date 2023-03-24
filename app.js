@@ -16,6 +16,13 @@ app.get("/test",(req,res)=>{
 
 app.use(router);
 
+app.get("/", (req, res) =>
+  res.send(
+    `<h1>Site is Working. click <a href=${process.env.BASE_URL}>here</a> to visit frontend.</h1>`
+  )
+);
+
+
 app.listen(port, () => {
     console.log(`server is start port number ${port}`);
 });
